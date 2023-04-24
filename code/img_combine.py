@@ -288,7 +288,7 @@ if __name__=='__main__':
     
     # gray combine img
     tiger = cv2.imread('../data/tiger.jpeg', 0)
-    flower = cv2.imread('../data/flower.tif', 0)
+    flower = cv2.imread('../data/flower.jpg', 0)
 
     tiger_bit = X.bit_plane(tiger)
     flower_bit = X.bit_plane(flower)
@@ -320,7 +320,7 @@ if __name__=='__main__':
 
     # color combine image
     rgb_tiger = cv2.imread('../data/tiger.jpeg')
-    rgb_flower = cv2.imread('../data/flower.tif')
+    rgb_flower = cv2.imread('../data/flower.jpg')
 
     rgb_tiger = cv2.cvtColor(rgb_tiger, cv2.COLOR_BGR2RGB)
     rgb_flower = cv2.cvtColor(rgb_flower, cv2.COLOR_BGR2RGB)

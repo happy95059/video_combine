@@ -14,8 +14,8 @@ X = img_combine.img_trans2(rows,cols)
 
 
 # gray combine img
-tiger = cv2.imread('tiger.jpeg', 0)
-flower = cv2.imread('flower.tif', 0)
+tiger = cv2.imread('../data/tiger.jpeg', 0)
+flower = cv2.imread('../data/flower.jpg', 0)
 
 tiger = cv2.resize(tiger,(cols,rows))
 flower = cv2.resize(flower,(cols,rows))
@@ -26,8 +26,8 @@ ans1 = X.trans_picture(ans2)
 
 
 # color combine image
-rgb_tiger = cv2.imread('tiger.jpeg')
-rgb_flower = cv2.imread('flower.tif')
+rgb_tiger = cv2.imread('../data/tiger.jpeg')
+rgb_flower = cv2.imread('../data/flower.jpg')
 
 rgb_tiger = cv2.resize(rgb_tiger,(cols,rows))
 rgb_flower = cv2.resize(rgb_flower,(cols,rows))
