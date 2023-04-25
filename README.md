@@ -3,7 +3,7 @@
     <img src='data/tiger.jpeg' width=150>,
     <img src='data/flower.jpg' width=150>) =
     <img src='data/tiger.jpeg' width=150>
-</font><br>></br>
+</font><br></br>
 
 <font size=5>Trans(
     <img src='data/tiger.jpeg' width=150>)=
